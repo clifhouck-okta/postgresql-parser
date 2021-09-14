@@ -1,4 +1,4 @@
-module github.com/auxten/postgresql-parser
+module github.com/clifhouck-okta/postgresql-parser
 
 go 1.15
 
