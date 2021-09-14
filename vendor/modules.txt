@@ -39,7 +39,7 @@ github.com/dustin/go-humanize
 # github.com/getsentry/raven-go v0.2.0
 ## explicit
 github.com/getsentry/raven-go
-# github.com/gogo/protobuf v1.3.1
+# github.com/gogo/protobuf v1.3.2
 ## explicit
 github.com/gogo/protobuf/jsonpb
 github.com/gogo/protobuf/proto
@@ -63,7 +63,7 @@ github.com/golang/protobuf/ptypes/wrappers
 github.com/grpc-ecosystem/grpc-gateway/internal
 github.com/grpc-ecosystem/grpc-gateway/runtime
 github.com/grpc-ecosystem/grpc-gateway/utilities
-# github.com/konsorten/go-windows-terminal-sequences v1.0.3
+# github.com/konsorten/go-windows-terminal-sequences v1.0.1
 github.com/konsorten/go-windows-terminal-sequences
 # github.com/kr/pretty v0.2.0
 ## explicit
@@ -86,7 +86,7 @@ github.com/petermattis/goid
 github.com/pkg/errors
 # github.com/pmezard/go-difflib v1.0.0
 github.com/pmezard/go-difflib/difflib
-# github.com/sirupsen/logrus v1.6.0
+# github.com/sirupsen/logrus v1.4.2
 ## explicit
 github.com/sirupsen/logrus
 # github.com/spf13/pflag v1.0.5
