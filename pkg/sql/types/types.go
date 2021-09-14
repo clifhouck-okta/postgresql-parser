@@ -18,9 +18,9 @@ import (
 	"github.com/cockroachdb/errors"
 	"github.com/lib/pq/oid"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/lex"
-	"github.com/auxten/postgresql-parser/pkg/util/errorutil/unimplemented"
-	"github.com/auxten/postgresql-parser/pkg/util/protoutil"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/lex"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/errorutil/unimplemented"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/protoutil"
 )
 
 // T is an instance of a SQL scalar, array, or tuple type. It describes the

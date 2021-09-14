@@ -15,19 +15,19 @@ import (
 	"strings"
 	"time"
 
-	//"github.com/auxten/postgresql-parser/pkg/server/telemetry"
-	"github.com/auxten/postgresql-parser/pkg/sql/lex"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgcode"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
-	"github.com/auxten/postgresql-parser/pkg/sql/sessiondata"
+	//"github.com/clifhouck-okta/postgresql-parser/pkg/server/telemetry"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/lex"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgcode"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sessiondata"
 	"github.com/cockroachdb/errors"
 	"golang.org/x/text/language"
 
-	//"github.com/auxten/postgresql-parser/pkg/sql/sqltelemetry"
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
-	"github.com/auxten/postgresql-parser/pkg/util/errorutil/unimplemented"
-	"github.com/auxten/postgresql-parser/pkg/util/hlc"
-	"github.com/auxten/postgresql-parser/pkg/util/timeutil"
+	//"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sqltelemetry"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/errorutil/unimplemented"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/hlc"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/timeutil"
 )
 
 // SemaContext defines the context in which to perform semantic analysis on an

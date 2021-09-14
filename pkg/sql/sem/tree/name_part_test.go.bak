@@ -13,10 +13,10 @@ package tree_test
 import (
 	"testing"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/parser"
-	"github.com/auxten/postgresql-parser/pkg/sql/sem/tree"
-	"github.com/auxten/postgresql-parser/pkg/testutils"
-	"github.com/auxten/postgresql-parser/pkg/util/leaktest"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/parser"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/tree"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/testutils"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/leaktest"
 )
 
 func TestUnresolvedObjectName(t *testing.T) {

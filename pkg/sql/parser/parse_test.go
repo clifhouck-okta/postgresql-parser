@@ -18,13 +18,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/parser"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
-	//_ "github.com/auxten/postgresql-parser/pkg/sql/sem/builtins"
-	"github.com/auxten/postgresql-parser/pkg/sql/sem/tree"
-	"github.com/auxten/postgresql-parser/pkg/testutils"
-	"github.com/auxten/postgresql-parser/pkg/testutils/sqlutils"
-	//_ "github.com/auxten/postgresql-parser/pkg/util/log" // for flags
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/parser"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
+	//_ "github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/builtins"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/tree"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/testutils"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/testutils/sqlutils"
+	//_ "github.com/clifhouck-okta/postgresql-parser/pkg/util/log" // for flags
 	"github.com/cockroachdb/errors"
 	"github.com/stretchr/testify/assert"
 )

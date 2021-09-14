@@ -16,8 +16,8 @@ import (
 
 	"github.com/cockroachdb/errors"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
-	"github.com/auxten/postgresql-parser/pkg/util/encoding"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/encoding"
 )
 
 // IndexedRows are rows with the corresponding indices.

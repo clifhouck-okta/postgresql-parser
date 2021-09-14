@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/parser"
-	"github.com/auxten/postgresql-parser/pkg/sql/sem/tree"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/parser"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/tree"
 )
 
 func main() {

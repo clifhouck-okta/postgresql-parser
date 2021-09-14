@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/parser"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/parser"
 )
 
 func TestParser(t *testing.T) {

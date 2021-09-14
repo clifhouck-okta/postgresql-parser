@@ -5,9 +5,9 @@ import (
 	"log"
 	"strings"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/parser"
-	"github.com/auxten/postgresql-parser/pkg/sql/sem/tree"
-	"github.com/auxten/postgresql-parser/pkg/util/set"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/parser"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/tree"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/set"
 )
 
 type AstWalker struct {

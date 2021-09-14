@@ -17,9 +17,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/lex"
-	"github.com/auxten/postgresql-parser/pkg/testutils"
-	"github.com/auxten/postgresql-parser/pkg/util/leaktest"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/lex"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/testutils"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/leaktest"
 )
 
 func TestScanner(t *testing.T) {

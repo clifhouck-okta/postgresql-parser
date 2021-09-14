@@ -11,10 +11,10 @@ import (
 	"go/constant"
 	"strings"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/lex"
-	"github.com/auxten/postgresql-parser/pkg/sql/privilege"
-	"github.com/auxten/postgresql-parser/pkg/sql/sem/tree"
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/lex"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/privilege"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/tree"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
 	"github.com/cockroachdb/errors"
 )
 

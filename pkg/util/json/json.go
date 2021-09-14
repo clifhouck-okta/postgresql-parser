@@ -25,10 +25,10 @@ import (
 	"github.com/cockroachdb/apd"
 	"github.com/cockroachdb/errors"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgcode"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
-	"github.com/auxten/postgresql-parser/pkg/util/encoding"
-	"github.com/auxten/postgresql-parser/pkg/util/unique"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgcode"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/encoding"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/unique"
 )
 
 // Type represents a JSON type.

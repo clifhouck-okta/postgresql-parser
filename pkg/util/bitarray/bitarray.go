@@ -18,8 +18,8 @@ import (
 
 	"github.com/cockroachdb/errors"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgcode"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgcode"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
 )
 
 // BitArray implements a bit string of arbitrary length.

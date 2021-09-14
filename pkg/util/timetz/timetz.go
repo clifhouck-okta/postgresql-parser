@@ -15,11 +15,11 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgcode"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
-	"github.com/auxten/postgresql-parser/pkg/util/timeofday"
-	"github.com/auxten/postgresql-parser/pkg/util/timeutil"
-	"github.com/auxten/postgresql-parser/pkg/util/timeutil/pgdate"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgcode"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/timeofday"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/timeutil"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/timeutil/pgdate"
 )
 
 var (

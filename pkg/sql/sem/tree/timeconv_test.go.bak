@@ -15,13 +15,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/auxten/postgresql-parser/pkg/kv"
-	"github.com/auxten/postgresql-parser/pkg/roachpb"
-	_ "github.com/auxten/postgresql-parser/pkg/sql/sem/builtins"
-	"github.com/auxten/postgresql-parser/pkg/sql/sem/tree"
-	"github.com/auxten/postgresql-parser/pkg/testutils"
-	"github.com/auxten/postgresql-parser/pkg/util/hlc"
-	"github.com/auxten/postgresql-parser/pkg/util/leaktest"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/kv"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/roachpb"
+	_ "github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/builtins"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/tree"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/testutils"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/hlc"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/leaktest"
 )
 
 // Test that EvalContext.GetClusterTimestamp() gets its timestamp from the

@@ -25,7 +25,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/auxten/postgresql-parser/pkg/util/timeutil"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/timeutil"
 )
 
 // Size of a UUID in bytes.

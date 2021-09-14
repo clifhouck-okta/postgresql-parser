@@ -13,8 +13,8 @@ package tree
 import (
 	"fmt"
 
-	//"github.com/auxten/postgresql-parser/pkg/sql/sqltelemetry"
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
+	//"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sqltelemetry"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
 )
 
 // This file implements the generation of unique names for every

@@ -16,13 +16,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/auxten/postgresql-parser/pkg/config/zonepb"
-	"github.com/auxten/postgresql-parser/pkg/gossip"
-	"github.com/auxten/postgresql-parser/pkg/kv/kvserver/storagepb"
-	"github.com/auxten/postgresql-parser/pkg/roachpb"
-	"github.com/auxten/postgresql-parser/pkg/sql/sqlbase"
-	"github.com/auxten/postgresql-parser/pkg/storage/enginepb"
-	"github.com/auxten/postgresql-parser/pkg/util/protoutil"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/config/zonepb"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/gossip"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/kv/kvserver/storagepb"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/roachpb"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sqlbase"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/storage/enginepb"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/protoutil"
 	"github.com/gogo/protobuf/proto"
 )
 

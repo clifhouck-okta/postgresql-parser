@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/lex"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgcode"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/lex"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgcode"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
 	"github.com/cockroachdb/errors"
 	"golang.org/x/text/language"
 
-	//"github.com/auxten/postgresql-parser/pkg/sql/roleoption"
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
+	//"github.com/clifhouck-okta/postgresql-parser/pkg/sql/roleoption"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
 )
 
 // CreateDatabase represents a CREATE DATABASE statement.
@@ -714,7 +714,7 @@ func (node *ReferenceActions) Format(ctx *FmtCtx) {
 }
 
 // CompositeKeyMatchMethod is the algorithm use when matching composite keys.
-// See https://github.com/auxten/postgresql-parser/issues/20305 or
+// See https://github.com/clifhouck-okta/postgresql-parser/issues/20305 or
 // https://www.postgresql.org/docs/11/sql-createtable.html for details on the
 // different composite foreign key matching methods.
 type CompositeKeyMatchMethod int

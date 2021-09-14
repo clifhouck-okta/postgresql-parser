@@ -19,7 +19,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/sync/syncmap"
 
-	"github.com/auxten/postgresql-parser/pkg/util/randutil"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/randutil"
 )
 
 func hookVisitor(v reflect.Value, hook func(v reflect.Value, i int)) {

@@ -13,9 +13,9 @@ package tree
 import (
 	"strings"
 
-	//"github.com/auxten/postgresql-parser/pkg/server/telemetry"
-	//"github.com/auxten/postgresql-parser/pkg/sql/sqltelemetry"
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
+	//"github.com/clifhouck-okta/postgresql-parser/pkg/server/telemetry"
+	//"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sqltelemetry"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
 )
 
 // AlterTable represents an ALTER TABLE statement.

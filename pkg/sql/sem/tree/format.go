@@ -17,9 +17,9 @@ import (
 
 	"github.com/cockroachdb/errors"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/lex"
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
-	"github.com/auxten/postgresql-parser/pkg/util"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/lex"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util"
 )
 
 // FmtFlags carries options for the pretty-printer.

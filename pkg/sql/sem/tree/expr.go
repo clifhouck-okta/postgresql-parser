@@ -17,11 +17,11 @@ import (
 
 	"github.com/cockroachdb/errors"
 
-	//"github.com/auxten/postgresql-parser/pkg/server/telemetry"
-	"github.com/auxten/postgresql-parser/pkg/sql/lex"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgcode"
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
+	//"github.com/clifhouck-okta/postgresql-parser/pkg/server/telemetry"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/lex"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgcode"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
 )
 
 // Expr represents an expression.

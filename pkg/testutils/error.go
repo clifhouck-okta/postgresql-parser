@@ -13,7 +13,7 @@ package testutils
 import (
 	"regexp"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
 )
 
 // IsError returns true if the error string matches the supplied regex.

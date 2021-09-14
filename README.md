@@ -38,7 +38,7 @@ package main
 import (
 	"log"
 
-	"github.com/auxten/postgresql-parser/pkg/walk"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/walk"
 )
 
 func main() {
@@ -63,7 +63,7 @@ func main() {
 # SQL parser
 
 This project contains code that is automatically generated using `goyacc`.
-`goyacc` reads the SQL expressions ([`sql.y`](https://github.com/auxten/postgresql-parser/blob/main/pkg/sql/parser/sql.y)) and generates a parser which could be used to tokenize a given input.
+`goyacc` reads the SQL expressions ([`sql.y`](https://github.com/clifhouck-okta/postgresql-parser/blob/main/pkg/sql/parser/sql.y)) and generates a parser which could be used to tokenize a given input.
 You could update the generated code using the `generate` target inside the project's Makefile.
 
 ```bash
@@ -71,7 +71,7 @@ $ make generate
 ```
 
 # Progress
-- 2021-02-16 `github.com/auxten/postgresql-parser/pkg/sql/parser` Unit tests works now!
+- 2021-02-16 `github.com/clifhouck-okta/postgresql-parser/pkg/sql/parser` Unit tests works now!
 - 2021-03-08 Add walker package.
 
 # Todo

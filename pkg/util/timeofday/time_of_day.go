@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/auxten/postgresql-parser/pkg/util/duration"
-	"github.com/auxten/postgresql-parser/pkg/util/timeutil"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/duration"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/timeutil"
 )
 
 // TimeOfDay represents a time of day (no date), stored as microseconds since

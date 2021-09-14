@@ -19,7 +19,7 @@
 
 package tree
 
-import "github.com/auxten/postgresql-parser/pkg/sql/lex"
+import "github.com/clifhouck-okta/postgresql-parser/pkg/sql/lex"
 
 // ShowVar represents a SHOW statement.
 type ShowVar struct {

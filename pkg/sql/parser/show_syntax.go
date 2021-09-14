@@ -14,8 +14,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
-	"github.com/auxten/postgresql-parser/pkg/sql/sem/tree"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/tree"
 )
 
 // RunShowSyntax analyzes the syntax and reports its structure as data

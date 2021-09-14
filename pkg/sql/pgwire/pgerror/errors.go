@@ -20,8 +20,8 @@ import (
 	"github.com/cockroachdb/errors"
 	"github.com/lib/pq"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgcode"
-	"github.com/auxten/postgresql-parser/pkg/util/stacktrace"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgcode"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/stacktrace"
 )
 
 var _ error = (*Error)(nil)

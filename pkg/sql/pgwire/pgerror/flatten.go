@@ -17,7 +17,7 @@ import (
 
 	"github.com/cockroachdb/errors"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgcode"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgcode"
 )
 
 // Flatten turns any error into a pgerror with fields populated.  As

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/auxten/postgresql-parser/pkg/util/humanizeutil"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/humanizeutil"
 )
 
 type envVarInfo struct {

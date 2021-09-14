@@ -17,12 +17,12 @@ import (
 
 	"github.com/cockroachdb/errors"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgerror"
-	"github.com/auxten/postgresql-parser/pkg/sql/sem/tree"
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
-	unimp "github.com/auxten/postgresql-parser/pkg/util/errorutil/unimplemented"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgerror"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sem/tree"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
+	unimp "github.com/clifhouck-okta/postgresql-parser/pkg/util/errorutil/unimplemented"
 
-	"github.com/auxten/postgresql-parser/pkg/sql/pgwire/pgcode"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/pgwire/pgcode"
 )
 
 type lexer struct {

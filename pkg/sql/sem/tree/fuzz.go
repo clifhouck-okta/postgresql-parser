@@ -12,7 +12,7 @@
 
 package tree
 
-import "github.com/auxten/postgresql-parser/pkg/util/timeutil"
+import "github.com/clifhouck-okta/postgresql-parser/pkg/util/timeutil"
 
 var (
 	timeCtx = NewParseTimeContext(timeutil.Now())

@@ -11,8 +11,8 @@
 package tree
 
 import (
-	"github.com/auxten/postgresql-parser/pkg/sql/sessiondata"
-	"github.com/auxten/postgresql-parser/pkg/sql/types"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/sessiondata"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/sql/types"
 )
 
 // GetRenderColName computes a name for a result column.

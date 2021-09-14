@@ -27,13 +27,13 @@ import (
 	"github.com/cockroachdb/apd"
 	"github.com/cockroachdb/errors"
 
-	"github.com/auxten/postgresql-parser/pkg/util/bitarray"
-	"github.com/auxten/postgresql-parser/pkg/util/duration"
-	"github.com/auxten/postgresql-parser/pkg/util/ipaddr"
-	"github.com/auxten/postgresql-parser/pkg/util/timeofday"
-	"github.com/auxten/postgresql-parser/pkg/util/timetz"
-	"github.com/auxten/postgresql-parser/pkg/util/timeutil"
-	"github.com/auxten/postgresql-parser/pkg/util/uuid"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/bitarray"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/duration"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/ipaddr"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/timeofday"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/timetz"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/timeutil"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/uuid"
 )
 
 const (

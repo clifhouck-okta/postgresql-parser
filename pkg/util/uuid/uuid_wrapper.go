@@ -18,7 +18,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/auxten/postgresql-parser/pkg/util/uint128"
+	"github.com/clifhouck-okta/postgresql-parser/pkg/util/uint128"
 )
 
 // Short returns the first eight characters of the output of String().
